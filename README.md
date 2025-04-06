@@ -14,4 +14,4 @@ I've also used semantic HTML to separate all these sections in the webpage and u
 The website is also fully responsive having two breaing points to allow for responsive design for different screen dimensions. In the first break the navigation bar section changes to a drop down menu with an icon that can be clicked to bring it up.
 
 # Page Hosting 
-Since this is mostly a static website with no fully functioning backend at the moment, I'm planning tohost it either using Netlify or with GitHub pages. In future commits, I'll have these set up.
+Since this is mostly a static website with no fully functioning backend at the moment, I have decided to host it using Netlify. Here's the link; https://stevieportfolio.netlify.app/
