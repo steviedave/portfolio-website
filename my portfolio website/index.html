@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Page</title>
+  <link rel = "stylesheet" href = "style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+<body>
+
+  <nav>
+    <a href = '#' class = "logo"><span>Stephen</span></a>
+
+    <ul class="links">
+      <a href = "#home">Home</a>
+      <a href = "#about">About</a>
+      <a href = "#services">Services</a>
+      <a href = "#portfolio">Portfolio</a>
+      <a href = "#footer">Contacts</a>
+    </ul>
+
+    <i class='bx bx-menu-alt-right' id = 'menu'></i>
+    
+    <a href = "#contact" class = "btn">Contact Me</a>
+
+  </nav>
+
+  <section id = "home">
+    <img src = "images/image.jpeg" alt="Profile Picture">
+    
+    <div class = "info-box">
+      <h1><span>Hello, I'm Stephen</span></h1>
+      <h3><span>Web Developer</span> based in Nairobi, Kenya</h3>
+      <p>
+        I’m a passionate and dedicated web developer with a knack for building dynamic, user-friendly websites. I love turning ideas into beautiful, functional websites. With a strong foundation in both front-end and back-end development, I bring creative solutions to web development projects, always keeping user experience at the forefront of my work.
+      </p>
+    </div>
+
+    <div class = "btn-box">
+      <div class = "btn">Hire</div>
+      <div class = "btn">Contact Me</div>
+    </div>
+  </section>
+
+  <section id = "about">
+    <div class = "about-box">
+      <div class = "about-info">
+        <h1><span>About Me</span></h1>
+        <p>
+          I’m Stephen, a web developer from Nairobi, Kenya. 
+          I’ve always been drawn to technology and design, and 
+          I started my journey in software development a few years ago. 
+          My skills range from HTML, CSS, and JavaScript to Python, and 
+          I’m constantly looking for opportunities to learn and grow. 
+          Whether working on a small personal project or contributing to a 
+          larger team effort, I take pride in delivering clean, efficient code 
+          and functional, polished websites.
+        </p>
+      </div>
+
+      <h2><span>Skills</span></h2>
+      <div class="skills">
+        <ul>
+          <li><span><i class='bx bx-chevron-right'></i>HTML</span></li>
+          <li><span><i class='bx bx-chevron-right'></i>CSS</span></li>
+          <li><span><i class='bx bx-chevron-right'></i>JavaScript</span></li>
+        </ul>
+
+        <ul>
+          <li><span><i class='bx bx-chevron-right'></i>Python</span></li>
+          <li><span><i class='bx bx-chevron-right'></i>Figma</span></li>
+          <li><span><i class='bx bx-chevron-right'></i>Graphic Design</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <img src = "images/image-2.jfif" alt="About Image">
+  </section>
+
+  <section id = "services">
+    <h1 class="header"><span>Services</span></h1>
+    
+    <div class="services-container">
+      <div class = "box">
+        <h1><span>Web Design</span></h1>
+        <p>
+          I specialize in designing visually appealing and user-friendly websites. Whether you're looking for a simple landing page or a complex multi-page website, I ensure that each design is clean, responsive, and tailored to meet your needs. My goal is to create designs that not only look great but also enhance user experience.
+        </p>
+        <img src = "images/web-design.jfif" alt="Web Design Image">
+      </div>
+
+      <div class = "box">
+        <h1><span>Web Development</span></h1>
+        <p>
+          As a web developer, I focus on creating dynamic and functional websites. From building interactive front-end experiences with JavaScript to developing back-end solutions with Python, I handle all aspects of web development. I prioritize performance, security, and scalability to ensure your site is fast, secure, and ready to grow.
+        </p>
+        <img src = "images/web-development.avif" alt="Web Development Image">
+      </div>
+
+      <div class = "box">
+        <h1><span>Graphic Design</span></h1>
+        <p>
+          I also offer graphic design services, creating stunning visuals for posters, brochures, logos, and more. With an eye for detail and a passion for design, I bring your creative vision to life. Whether you're a startup in need of branding or an established company looking for fresh visuals, I'm here to help.
+        </p>
+        <img src = "images/graphic-design.webp" alt="Graphic Design Image">
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <h1 class="header"><span>Graphic Design Portfolio</span></h1>
+  
+    <div class="portfolio-container">
+      <div class="box">
+        <h2><span>Posters</span></h2>
+        <p>
+          Below are some of the posters I've designed for various events and campaigns. 
+          My design style combines modern aesthetics with practical solutions, ensuring 
+          that every piece communicates the intended message clearly and effectively.
+        </p>
+  
+        <div class="slider-wrapper">
+          <div class="slider-track">
+            <img src="posters/Dynamo Fortress Basketball Training Poster.png" alt="Poster 1">
+            <img src="posters/door-2-door(elegance poster).png" alt="Poster 2">
+            <img src="posters/Door-2-Door(Luxury Poster).png" alt="Poster 3">
+            <img src="posters/Door-2-Door(low and middle class poster).png" alt="Poster 4">
+            <img src="posters/Door2Door Elegance Poster (Edit2).png" alt="Poster 5">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id = "contact">
+    <h1 class="header"><span>Contact Me</span></h1>
+
+    <form action = '#'>
+      <div class="input-box">
+        <span>Full Name</span>
+        <input type = "text" placeholder = "Enter your name">
+      </div>
+
+      <div class="input-box">
+        <span>Email</span>
+        <input type = "email" placeholder = "Enter your email">
+      </div>
+
+      <div class="input-box">
+        <span>Your Message</span>
+        <input type = "text" placeholder = "Enter your message">
+      </div>
+
+      <div class = "btn">Submit</div> 
+    </form>
+  </section>
+
+  <footer id = "footer">
+    <div class="col-left">
+      <div class="col-box">
+        <span><i class='bx bxs-location-plus'></i></span>
+        <span>Nairobi, Kenya</span>
+      </div>
+
+      <div class="col-box">
+        <span><i class='bx bxs-phone'></i></span>
+        <span>+254745960656</span>
+      </div>
+
+      <div class="col-box">
+        <span><i class='bx bxs-envelope' ></i></span>
+        <span>steveoduor289@gmail.com</span>
+      </div>
+    </div>
+
+    <div class="col-right">
+      <span>About My Services</span>
+      <p>
+        I am passionate about creating high-quality web designs, building responsive 
+        websites, and delivering results that matter. I focus on combining functionality 
+        and aesthetics to ensure your project is both practical and visually appealing. 
+        Let’s work together to make your ideas come to life!
+      </p>
+
+      <div class = "social-icons">
+        <span><i class='bx bxl-instagram-alt' ></i></span>
+        <span><i class='bx bxl-linkedin-square'></i></span>
+        <span><i class='bx bxl-github'></i></span>
+      </div>
+    </div>
+  </footer>
+
+<script src = "script.js"></script>  
+
+</body>
+</html>
